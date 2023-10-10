@@ -19,8 +19,8 @@ const Header = () => {
   return (
     <Navbar fluid rounded>
       <Navbar.Brand href="https://flowbite-react.com">
-        <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">
-          Pure Day
+        <span className="max-w-2xl mb-6 font-bold lg:mb-8 md:text-lg lg:text-xl dark:text-white">
+          Pure
         </span>
       </Navbar.Brand>
       <div className="flex md:order-2">
@@ -34,13 +34,37 @@ const Header = () => {
         <Navbar.Toggle />
       </div>
       <Navbar.Collapse>
-        <Navbar.Link active href="#">
+        <Navbar.Link
+          className="max-w-2xl mb-6 font-bold text-gray-700 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400"
+          active
+          href="#"
+        >
           <p>Home</p>
         </Navbar.Link>
-        <Navbar.Link href="#">About</Navbar.Link>
-        <Navbar.Link href="#">Services</Navbar.Link>
-        <Navbar.Link href="#">Pricing</Navbar.Link>
-        <Navbar.Link href="#">Contact</Navbar.Link>
+        <Navbar.Link
+          className="max-w-2xl mb-6 font-bold text-gray-700 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400"
+          href="#"
+        >
+          About
+        </Navbar.Link>
+        <Navbar.Link
+          className="max-w-2xl mb-6 font-bold text-gray-700 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400"
+          href="#"
+        >
+          Services
+        </Navbar.Link>
+        <Navbar.Link
+          className="max-w-2xl mb-6 font-bold text-gray-700 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400"
+          href="#"
+        >
+          Pricing
+        </Navbar.Link>
+        <Navbar.Link
+          className="max-w-2xl mb-6 font-bold text-gray-700 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400"
+          href="#"
+        >
+          Contact
+        </Navbar.Link>
       </Navbar.Collapse>
     </Navbar>
   );
