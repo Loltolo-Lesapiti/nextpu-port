@@ -6,7 +6,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMoon, faSun } from "@fortawesome/free-solid-svg-icons";
 import "./style.css";
 
-const Header = () => {
+const Page = () => {
   const [theme, setTheme] = useState("light");
 
   useEffect(() => {
@@ -37,19 +37,13 @@ const Header = () => {
         <Navbar.Link
           className="max-w-2xl mb-6 font-bold text-gray-700 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400"
           active
-          href="#"
+          href="/"
         >
           <p>Home</p>
         </Navbar.Link>
         <Navbar.Link
           className="max-w-2xl mb-6 font-bold text-gray-700 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400"
-          href="#"
-        >
-          About
-        </Navbar.Link>
-        <Navbar.Link
-          className="max-w-2xl mb-6 font-bold text-gray-700 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400"
-          href="#"
+          href="./services"
         >
           Services
         </Navbar.Link>
@@ -57,7 +51,7 @@ const Header = () => {
           className="max-w-2xl mb-6 font-bold text-gray-700 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400"
           href="#"
         >
-          Pricing
+          My Experience
         </Navbar.Link>
         <Navbar.Link
           className="max-w-2xl mb-6 font-bold text-gray-700 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400"
@@ -69,4 +63,4 @@ const Header = () => {
     </Navbar>
   );
 };
-export default Header;
+export default Page;
