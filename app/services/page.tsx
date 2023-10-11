@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 
 const Page = () => {
@@ -6,11 +7,11 @@ const Page = () => {
       <div className="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
         <div className="max-w-screen-md mb-8 lg:mb-16">
           <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
-            Designed for business teams like yours
+            Lorem ipsum dolor sit amet consectetur
           </h2>
           <p className="text-gray-500 sm:text-xl dark:text-gray-400">
-            Here at Flowbite we focus on markets where technology, innovation,
-            and capital can unlock long-term value and drive economic growth.
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore
+            deserunt suscipit dolorum nisi voluptatum
           </p>
         </div>
         <div className="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0">
@@ -33,9 +34,8 @@ const Page = () => {
               Marketing
             </h3>
             <p className="text-gray-500 dark:text-gray-400">
-              Plan it, create it, launch it. Collaborate seamlessly with all the
-              organization and hit your marketing goals every month with our
-              marketing plan.
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore
+              deserunt suscipit dolorum nisi voluptatum
             </p>
           </div>
           <div>
@@ -51,8 +51,8 @@ const Page = () => {
             </div>
             <h3 className="mb-2 text-xl font-bold dark:text-white">Legal</h3>
             <p className="text-gray-500 dark:text-gray-400">
-              Protect your organization, devices and stay compliant with our
-              structured workflows and custom permissions made for you.
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore
+              deserunt suscipit dolorum nisi voluptatum
             </p>
           </div>
           <div>
@@ -75,8 +75,8 @@ const Page = () => {
               Business Automation
             </h3>
             <p className="text-gray-500 dark:text-gray-400">
-              Auto-assign tasks, send Slack messages, and much more. Now power
-              up with hundreds of new templates to help you get started.
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore
+              deserunt suscipit dolorum nisi voluptatum
             </p>
           </div>
           <div>
@@ -97,8 +97,8 @@ const Page = () => {
             </div>
             <h3 className="mb-2 text-xl font-bold dark:text-white">Finance</h3>
             <p className="text-gray-500 dark:text-gray-400">
-              Audit-proof software built for critical financial operations like
-              month-end close and quarterly budgeting.
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore
+              deserunt suscipit dolorum nisi voluptatum
             </p>
           </div>
           <div>
@@ -116,8 +116,8 @@ const Page = () => {
               Enterprise Design
             </h3>
             <p className="text-gray-500 dark:text-gray-400">
-              Craft beautiful, delightful experiences for both marketing and
-              product with real cross-company collaboration.
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore
+              deserunt suscipit dolorum nisi voluptatum
             </p>
           </div>
           <div>
@@ -139,8 +139,8 @@ const Page = () => {
               Operations
             </h3>
             <p className="text-gray-500 dark:text-gray-400">
-              Keep your company’s lights on with customizable, iterative, and
-              structured workflows built for all efficient teams and individual.
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore
+              deserunt suscipit dolorum nisi voluptatum
             </p>
           </div>
         </div>

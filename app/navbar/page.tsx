@@ -17,45 +17,48 @@ const Page = () => {
     setTheme(theme === "dark" ? "light" : "dark");
   };
   return (
-    <Navbar fluid rounded>
-      <Navbar.Brand href="https://flowbite-react.com">
-        <span className="max-w-2xl mb-6 font-bold lg:mb-8 md:text-lg lg:text-xl dark:text-white">
+    <Navbar fluid rounded className="sticky-navbar">
+      <Navbar.Brand href="https://www.linkedin.com/in/puritymwendemusau/">
+        <span className="max-w-2xl mb-6 font-bold lg:mb-8 md:text-lg lg:text-xl dark:text-white antialiased">
           Pure
         </span>
       </Navbar.Brand>
       <div className="flex md:order-2">
-        <Button className="toggle" onClick={handleThemeSwitch}>
+        <Button
+          className="bg-transparent dark:bg-transparent hover:bg-transparent md:pt:2"
+          onClick={handleThemeSwitch}
+        >
           {theme === "dark" ? (
-            <FontAwesomeIcon icon={faSun} className="mr-2" />
+            <FontAwesomeIcon icon={faSun} className="mr-2 text-white" />
           ) : (
-            <FontAwesomeIcon icon={faMoon} className="mr-2" />
+            <FontAwesomeIcon icon={faMoon} className="mr-2 text-black" />
           )}
         </Button>
         <Navbar.Toggle />
       </div>
       <Navbar.Collapse>
         <Navbar.Link
-          className="max-w-2xl mb-6 font-bold text-gray-700 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400"
+          className="max-w-2xl mb-6 font-semibold text-#002d5b lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400"
           active
           href="/"
         >
           <p>Home</p>
         </Navbar.Link>
         <Navbar.Link
-          className="max-w-2xl mb-6 font-bold text-gray-700 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400"
-          href="./services"
+          className="max-w-2xl mb-6 font-semibold text-#002d5b lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400"
+          href="/services"
         >
           Services
         </Navbar.Link>
         <Navbar.Link
-          className="max-w-2xl mb-6 font-bold text-gray-700 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400"
-          href="#"
+          className="max-w-2xl mb-6 font-semibold text-#002d5b lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400"
+          href="/portfolio"
         >
           My Experience
         </Navbar.Link>
         <Navbar.Link
-          className="max-w-2xl mb-6 font-bold text-gray-700 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400"
-          href="#"
+          className="max-w-2xl mb-6 font-semibold text-#002d5b lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400"
+          href="/contact"
         >
           Contact
         </Navbar.Link>
