@@ -6,7 +6,10 @@ import "./style.css";
 
 const Page = () => {
   return (
-    <Footer container className="flex justify-around bg-slate-200 mt-10">
+    <Footer
+      container
+      className="flex justify-around w-full bg-gray-700 mt-10 text-white dark:text-dark"
+    >
       <Footer.Copyright by="Petro Lesapiti" href="#" year={2023} />
       <Footer.LinkGroup>
         <Footer.Icon
