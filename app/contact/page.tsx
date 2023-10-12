@@ -4,9 +4,9 @@ import { Button, Textarea, Label, TextInput } from "flowbite-react";
 
 const page = () => {
   return (
-    <section className="bg-white dark:bg-gray-900 mb-10">
+    <section className="bg-white dark:bg-gray-700 mb-10">
       <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
-        <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">
+        <h2 className="mb-4 text-4xl tracking-tight font-extrabold lg:mt-8 md:mt-6 text-center text-gray-900 dark:text-white">
           Contact Me
         </h2>
         <p className="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">
