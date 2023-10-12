@@ -17,7 +17,7 @@ const Page = () => {
     setTheme(theme === "dark" ? "light" : "dark");
   };
   return (
-    <Navbar fluid rounded className="sticky-navbar">
+    <Navbar fluid rounded className="sticky-navbar shadow hover:shadow-lg">
       <Navbar.Brand href="https://www.linkedin.com/in/puritymwendemusau/">
         <span className="max-w-2xl mb-6 font-bold lg:mb-8 md:text-lg lg:text-xl dark:text-white antialiased">
           Pure
@@ -25,7 +25,7 @@ const Page = () => {
       </Navbar.Brand>
       <div className="flex md:order-2">
         <Button
-          className="bg-transparent dark:bg-transparent hover:bg-transparent md:pt:2"
+          className="bg-transparent dark:bg-transparent hover:bg-transparent md:pt:2 -translate-y-4"
           onClick={handleThemeSwitch}
         >
           {theme === "dark" ? (
@@ -38,26 +38,26 @@ const Page = () => {
       </div>
       <Navbar.Collapse>
         <Navbar.Link
-          className="max-w-2xl mb-6 font-semibold text-#002d5b lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400"
+          className="max-w-2xl mb-6 font-semibold text-neutral-800 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400"
           active
           href="/"
         >
           <p>Home</p>
         </Navbar.Link>
         <Navbar.Link
-          className="max-w-2xl mb-6 font-semibold text-#002d5b lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400"
+          className="max-w-2xl mb-6 font-semibold text-neutral-800 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400"
           href="/services"
         >
           Services
         </Navbar.Link>
         <Navbar.Link
-          className="max-w-2xl mb-6 font-semibold text-#002d5b lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400"
+          className="max-w-2xl mb-6 font-semibold text-neutral-800 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400"
           href="/portfolio"
         >
           My Experience
         </Navbar.Link>
         <Navbar.Link
-          className="max-w-2xl mb-6 font-semibold text-#002d5b lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400"
+          className="max-w-2xl mb-6 font-semibold text-neutral-800 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400"
           href="/contact"
         >
           Contact
