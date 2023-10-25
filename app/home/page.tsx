@@ -21,11 +21,11 @@ const Page = () => {
             Hire Me
           </a>
         </div>
-        <div className="lg:mt-0 lg:col-span-5 lg:flex ">
+        <div className="lg:mt-0 lg:col-span-5 lg:flex">
           <img
-            src="pure1.png"
+            src="hero.jpg"
             alt="Pure"
-            className="lg:w-full lg:h-full lg:mt-0 sm:w-full sm:h-auto sm:mt-1rem"
+            className=" lg:w-full lg:h-full lg:mt-0 sm:w-full sm:h-auto sm:mt-1rem"
           />
         </div>
       </div>

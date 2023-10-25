@@ -20,7 +20,7 @@ const Page = () => {
     <Navbar fluid rounded className="sticky-navbar shadow hover:shadow-lg">
       <Navbar.Brand href="https://www.linkedin.com/in/puritymwendemusau/">
         <span className="max-w-2xl mb-6 font-bold lg:mb-8 md:text-lg lg:text-xl dark:text-white antialiased">
-          Pure
+          Catalyst Digital Services
         </span>
       </Navbar.Brand>
       <div className="flex md:order-2">
